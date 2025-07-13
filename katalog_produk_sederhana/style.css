@@ -1,0 +1,128 @@
+body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid #007bff;
+}
+
+.card-title {
+  font-weight: 600;
+  color: #333;
+}
+
+.card-text {
+  font-size: 0.95rem;
+}
+
+.hover-card {
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+.hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  border: none;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #0056b3, #003e7e);
+}
+
+footer {
+  background-color: #212529;
+  color: white;
+  font-size: 0.9rem;
+}
+/* Global Style */
+body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+/* Card Produk */
+.card {
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid #007bff;
+}
+
+.card-title {
+  font-weight: 600;
+  color: #333;
+}
+
+.card-text {
+  font-size: 0.95rem;
+}
+
+/* Tombol */
+.btn-primary {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  border: none;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #0056b3, #003e7e);
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+  font-weight: bold;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+/* Detail Produk */
+.img-fluid {
+  max-height: 400px;
+  object-fit: contain;
+}
+
+/* Footer */
+footer {
+  background-color: #212529;
+  color: white;
+  font-size: 0.9rem;
+}
+
+footer p {
+  margin: 0;
+}
